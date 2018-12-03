@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.ttf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="HomeVCCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="194" id="KGk-i7-Jjw" customClass="HomeVCCell" customModule="LoginDemoWithRealm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l3g-Ix-YPU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-EO-iFa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ess-PM-nOA">
+                                <rect key="frame" x="0.0" y="175" width="256" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product001Product001Product001Product001Product001Product001Product001Product001" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRf-C3-BvE">
+                                        <rect key="frame" x="20" y="5" width="216" height="37.5"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$9999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y39-XY-Chs">
+                                        <rect key="frame" x="20" y="42.5" width="44.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Y39-XY-Chs" firstAttribute="top" secondItem="dRf-C3-BvE" secondAttribute="bottom" id="1Wg-dW-l2M"/>
+                                    <constraint firstItem="dRf-C3-BvE" firstAttribute="leading" secondItem="ess-PM-nOA" secondAttribute="leading" constant="20" id="5H8-qD-SGf"/>
+                                    <constraint firstAttribute="trailing" secondItem="dRf-C3-BvE" secondAttribute="trailing" constant="20" id="i0h-Ch-ywp"/>
+                                    <constraint firstItem="dRf-C3-BvE" firstAttribute="top" secondItem="ess-PM-nOA" secondAttribute="top" constant="5" id="mCd-GW-Dgr"/>
+                                    <constraint firstItem="Y39-XY-Chs" firstAttribute="leading" secondItem="dRf-C3-BvE" secondAttribute="leading" id="rb9-X3-dBu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1UR-EO-iFa" firstAttribute="top" secondItem="l3g-Ix-YPU" secondAttribute="top" id="8MB-eA-pja"/>
+                            <constraint firstAttribute="trailing" secondItem="1UR-EO-iFa" secondAttribute="trailing" id="Q3j-KY-Leo"/>
+                            <constraint firstItem="ess-PM-nOA" firstAttribute="leading" secondItem="l3g-Ix-YPU" secondAttribute="leading" id="TOr-5Y-ECJ"/>
+                            <constraint firstItem="ess-PM-nOA" firstAttribute="width" secondItem="l3g-Ix-YPU" secondAttribute="width" multiplier="8:10" id="XU5-cy-VSK"/>
+                            <constraint firstAttribute="bottom" secondItem="ess-PM-nOA" secondAttribute="bottom" id="blg-Mq-idB"/>
+                            <constraint firstAttribute="bottom" secondItem="1UR-EO-iFa" secondAttribute="bottom" id="cAK-T1-dxl"/>
+                            <constraint firstItem="1UR-EO-iFa" firstAttribute="leading" secondItem="l3g-Ix-YPU" secondAttribute="leading" id="sjC-59-7zg"/>
+                            <constraint firstItem="ess-PM-nOA" firstAttribute="height" secondItem="l3g-Ix-YPU" secondAttribute="height" multiplier="3:10" id="wXH-1a-0tn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="l3g-Ix-YPU" firstAttribute="height" secondItem="KGk-i7-Jjw" secondAttribute="height" id="1DV-Ee-gqa"/>
+                <constraint firstItem="l3g-Ix-YPU" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="3uw-wd-fgW"/>
+                <constraint firstItem="l3g-Ix-YPU" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" id="I03-IF-M91"/>
+                <constraint firstItem="l3g-Ix-YPU" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" id="Lh3-Jo-Gbn"/>
+            </constraints>
+            <connections>
+                <outlet property="imgProduct" destination="1UR-EO-iFa" id="yBF-43-g1x"/>
+                <outlet property="lblProductName" destination="dRf-C3-BvE" id="q7d-iC-9oq"/>
+                <outlet property="lblProductPrice" destination="Y39-XY-Chs" id="ta9-5b-Jae"/>
+            </connections>
+            <point key="canvasLocation" x="-56" y="25"/>
+        </tableViewCell>
+    </objects>
+</document>

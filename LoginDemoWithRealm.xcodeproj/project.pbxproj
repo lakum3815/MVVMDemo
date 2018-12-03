@@ -7,21 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994A853EDDEE5403BCA87CAE /* Pods_LoginDemoWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8E5168055136C734F2043D /* Pods_LoginDemoWithRealm.framework */; };
 		E950762021B116D600FE214F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E950761F21B116D600FE214F /* AppDelegate.swift */; };
-		E950762221B116D600FE214F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E950762121B116D600FE214F /* ViewController.swift */; };
+		E950762221B116D600FE214F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E950762121B116D600FE214F /* LoginVC.swift */; };
 		E950762521B116D600FE214F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E950762321B116D600FE214F /* Main.storyboard */; };
 		E950762721B116D800FE214F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E950762621B116D800FE214F /* Assets.xcassets */; };
 		E950762A21B116D800FE214F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E950762821B116D800FE214F /* LaunchScreen.storyboard */; };
+		E950763321B1179000FE214F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E950763221B1179000FE214F /* UserModel.swift */; };
+		E972BE0221B4CE7E009509E2 /* RealmUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972BE0121B4CE7E009509E2 /* RealmUserModel.swift */; };
+		E9AD2B3221B455C5002D9FA8 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2B3121B455C5002D9FA8 /* GlobalConstant.swift */; };
+		E9AD2B3421B45896002D9FA8 /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2B3321B45896002D9FA8 /* AlamofireRequest.swift */; };
+		E9AD2B3621B46177002D9FA8 /* BindCustomComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2B3521B46177002D9FA8 /* BindCustomComponents.swift */; };
+		E9BBF4B321B43A100084BE95 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBF4B221B43A100084BE95 /* LoginViewModel.swift */; };
+		E9BBF4B521B440130084BE95 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBF4B421B440130084BE95 /* Dynamic.swift */; };
+		E9D75A9921B4FC530096E68F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75A9821B4FC530096E68F /* HomeVC.swift */; };
+		E9D75A9B21B4FF2C0096E68F /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75A9A21B4FF2C0096E68F /* SplashVC.swift */; };
+		E9D75A9E21B506DC0096E68F /* HomeVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75A9C21B506DC0096E68F /* HomeVCCell.swift */; };
+		E9D75A9F21B506DC0096E68F /* HomeVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D75A9D21B506DC0096E68F /* HomeVCCell.xib */; };
+		E9D75AA121B50A0F0096E68F /* ItemListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AA021B50A0F0096E68F /* ItemListModel.swift */; };
+		E9D75AA321B50E700096E68F /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AA221B50E700096E68F /* ItemListViewModel.swift */; };
+		E9D75AAC21B531BC0096E68F /* DTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AA621B531BC0096E68F /* DTAlertView.m */; };
+		E9D75AAD21B531BC0096E68F /* SKActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AA721B531BC0096E68F /* SKActivityIndicatorView.swift */; };
+		E9D75AAE21B531BC0096E68F /* DTProgressStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AA821B531BC0096E68F /* DTProgressStatus.m */; };
+		E9D75AAF21B531BC0096E68F /* SKActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AAA21B531BC0096E68F /* SKActivityIndicatorViewStyle.swift */; };
+		E9D75AB221B532570096E68F /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AB021B532570096E68F /* ValidationService.swift */; };
+		E9D75AB321B532570096E68F /* StringAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D75AB121B532570096E68F /* StringAll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50A441ECD2E100FD1A0248C3 /* Pods-LoginDemoWithRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginDemoWithRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginDemoWithRealm/Pods-LoginDemoWithRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		73BB12B9C6A9716534A3F0E6 /* Pods-LoginDemoWithRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginDemoWithRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginDemoWithRealm/Pods-LoginDemoWithRealm.release.xcconfig"; sourceTree = "<group>"; };
+		CA8E5168055136C734F2043D /* Pods_LoginDemoWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginDemoWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950761C21B116D600FE214F /* LoginDemoWithRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemoWithRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950761F21B116D600FE214F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E950762121B116D600FE214F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E950762121B116D600FE214F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E950762421B116D600FE214F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E950762621B116D800FE214F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E950762921B116D800FE214F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E950762B21B116D800FE214F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E950763221B1179000FE214F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		E972BE0121B4CE7E009509E2 /* RealmUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmUserModel.swift; sourceTree = "<group>"; };
+		E9AD2B3121B455C5002D9FA8 /* GlobalConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
+		E9AD2B3321B45896002D9FA8 /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
+		E9AD2B3521B46177002D9FA8 /* BindCustomComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindCustomComponents.swift; sourceTree = "<group>"; };
+		E9BBF4B221B43A100084BE95 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E9BBF4B421B440130084BE95 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		E9D75A9821B4FC530096E68F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E9D75A9A21B4FF2C0096E68F /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		E9D75A9C21B506DC0096E68F /* HomeVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVCCell.swift; sourceTree = "<group>"; };
+		E9D75A9D21B506DC0096E68F /* HomeVCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVCCell.xib; sourceTree = "<group>"; };
+		E9D75AA021B50A0F0096E68F /* ItemListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListModel.swift; sourceTree = "<group>"; };
+		E9D75AA221B50E700096E68F /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
+		E9D75AA521B531BB0096E68F /* LoginDemoWithRealm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginDemoWithRealm-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9D75AA621B531BC0096E68F /* DTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTAlertView.m; sourceTree = "<group>"; };
+		E9D75AA721B531BC0096E68F /* SKActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicatorView.swift; sourceTree = "<group>"; };
+		E9D75AA821B531BC0096E68F /* DTProgressStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTProgressStatus.m; sourceTree = "<group>"; };
+		E9D75AA921B531BC0096E68F /* DTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTAlertView.h; sourceTree = "<group>"; };
+		E9D75AAA21B531BC0096E68F /* SKActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
+		E9D75AAB21B531BC0096E68F /* DTProgressStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTProgressStatus.h; sourceTree = "<group>"; };
+		E9D75AB021B532570096E68F /* ValidationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		E9D75AB121B532570096E68F /* StringAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringAll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994A853EDDEE5403BCA87CAE /* Pods_LoginDemoWithRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB6968F4E9B71A9868500F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50A441ECD2E100FD1A0248C3 /* Pods-LoginDemoWithRealm.debug.xcconfig */,
+				73BB12B9C6A9716534A3F0E6 /* Pods-LoginDemoWithRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7E2E81402FE1B61A272C750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA8E5168055136C734F2043D /* Pods_LoginDemoWithRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E950761321B116D600FE214F = {
 			isa = PBXGroup;
 			children = (
 				E950761E21B116D600FE214F /* LoginDemoWithRealm */,
 				E950761D21B116D600FE214F /* Products */,
+				AB6968F4E9B71A9868500F35 /* Pods */,
+				D7E2E81402FE1B61A272C750 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +120,75 @@
 			isa = PBXGroup;
 			children = (
 				E950761F21B116D600FE214F /* AppDelegate.swift */,
-				E950762121B116D600FE214F /* ViewController.swift */,
-				E950762321B116D600FE214F /* Main.storyboard */,
 				E950762621B116D800FE214F /* Assets.xcassets */,
 				E950762821B116D800FE214F /* LaunchScreen.storyboard */,
 				E950762B21B116D800FE214F /* Info.plist */,
+				E950763421B1197D00FE214F /* View */,
+				E950763121B1170800FE214F /* Model */,
+				E950763521B119A300FE214F /* ViewModel */,
+				E9AD2B3021B45574002D9FA8 /* Global */,
 			);
 			path = LoginDemoWithRealm;
+			sourceTree = "<group>";
+		};
+		E950763121B1170800FE214F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E950763221B1179000FE214F /* UserModel.swift */,
+				E972BE0121B4CE7E009509E2 /* RealmUserModel.swift */,
+				E9D75AA021B50A0F0096E68F /* ItemListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E950763421B1197D00FE214F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9D75A9C21B506DC0096E68F /* HomeVCCell.swift */,
+				E9D75A9D21B506DC0096E68F /* HomeVCCell.xib */,
+				E9D75A9A21B4FF2C0096E68F /* SplashVC.swift */,
+				E9D75A9821B4FC530096E68F /* HomeVC.swift */,
+				E950762121B116D600FE214F /* LoginVC.swift */,
+				E950762321B116D600FE214F /* Main.storyboard */,
+				E9D75AA421B5317F0096E68F /* AlertView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E950763521B119A300FE214F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9BBF4B421B440130084BE95 /* Dynamic.swift */,
+				E9BBF4B221B43A100084BE95 /* LoginViewModel.swift */,
+				E9D75AA221B50E700096E68F /* ItemListViewModel.swift */,
+				E9AD2B3521B46177002D9FA8 /* BindCustomComponents.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E9AD2B3021B45574002D9FA8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				E9D75AB121B532570096E68F /* StringAll.swift */,
+				E9D75AB021B532570096E68F /* ValidationService.swift */,
+				E9AD2B3121B455C5002D9FA8 /* GlobalConstant.swift */,
+				E9AD2B3321B45896002D9FA8 /* AlamofireRequest.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		E9D75AA421B5317F0096E68F /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E9D75AA921B531BC0096E68F /* DTAlertView.h */,
+				E9D75AA621B531BC0096E68F /* DTAlertView.m */,
+				E9D75AAB21B531BC0096E68F /* DTProgressStatus.h */,
+				E9D75AA821B531BC0096E68F /* DTProgressStatus.m */,
+				E9D75AA721B531BC0096E68F /* SKActivityIndicatorView.swift */,
+				E9D75AAA21B531BC0096E68F /* SKActivityIndicatorViewStyle.swift */,
+				E9D75AA521B531BB0096E68F /* LoginDemoWithRealm-Bridging-Header.h */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E950762E21B116D800FE214F /* Build configuration list for PBXNativeTarget "LoginDemoWithRealm" */;
 			buildPhases = (
+				E8128AC1EAA744E44936DE12 /* [CP] Check Pods Manifest.lock */,
 				E950761821B116D600FE214F /* Sources */,
 				E950761921B116D600FE214F /* Frameworks */,
 				E950761A21B116D600FE214F /* Resources */,
+				31A030D5102F25412CECBD24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +225,7 @@
 				TargetAttributes = {
 					E950761B21B116D600FE214F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -123,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E950762A21B116D800FE214F /* LaunchScreen.storyboard in Resources */,
+				E9D75A9F21B506DC0096E68F /* HomeVCCell.xib in Resources */,
 				E950762721B116D800FE214F /* Assets.xcassets in Resources */,
 				E950762521B116D600FE214F /* Main.storyboard in Resources */,
 			);
@@ -130,13 +261,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31A030D5102F25412CECBD24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoginDemoWithRealm/Pods-LoginDemoWithRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginDemoWithRealm/Pods-LoginDemoWithRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8128AC1EAA744E44936DE12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginDemoWithRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E950761821B116D600FE214F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E950762221B116D600FE214F /* ViewController.swift in Sources */,
+				E9AD2B3421B45896002D9FA8 /* AlamofireRequest.swift in Sources */,
+				E9D75AA121B50A0F0096E68F /* ItemListModel.swift in Sources */,
+				E9D75AB321B532570096E68F /* StringAll.swift in Sources */,
+				E9AD2B3221B455C5002D9FA8 /* GlobalConstant.swift in Sources */,
+				E9BBF4B321B43A100084BE95 /* LoginViewModel.swift in Sources */,
+				E9AD2B3621B46177002D9FA8 /* BindCustomComponents.swift in Sources */,
+				E9D75AAF21B531BC0096E68F /* SKActivityIndicatorViewStyle.swift in Sources */,
+				E9D75AA321B50E700096E68F /* ItemListViewModel.swift in Sources */,
+				E9D75A9B21B4FF2C0096E68F /* SplashVC.swift in Sources */,
+				E9D75AB221B532570096E68F /* ValidationService.swift in Sources */,
+				E972BE0221B4CE7E009509E2 /* RealmUserModel.swift in Sources */,
+				E9BBF4B521B440130084BE95 /* Dynamic.swift in Sources */,
+				E950762221B116D600FE214F /* LoginVC.swift in Sources */,
+				E9D75AAE21B531BC0096E68F /* DTProgressStatus.m in Sources */,
+				E950763321B1179000FE214F /* UserModel.swift in Sources */,
+				E9D75AAD21B531BC0096E68F /* SKActivityIndicatorView.swift in Sources */,
+				E9D75A9921B4FC530096E68F /* HomeVC.swift in Sources */,
+				E9D75AAC21B531BC0096E68F /* DTAlertView.m in Sources */,
 				E950762021B116D600FE214F /* AppDelegate.swift in Sources */,
+				E9D75A9E21B506DC0096E68F /* HomeVCCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +476,21 @@
 		};
 		E950762F21B116D800FE214F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A441ECD2E100FD1A0248C3 /* Pods-LoginDemoWithRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginDemoWithRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.LoginDemoWithRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginDemoWithRealm/View/AlertView/LoginDemoWithRealm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +498,20 @@
 		};
 		E950763021B116D800FE214F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BB12B9C6A9716534A3F0E6 /* Pods-LoginDemoWithRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoginDemoWithRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.LoginDemoWithRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginDemoWithRealm/View/AlertView/LoginDemoWithRealm-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
